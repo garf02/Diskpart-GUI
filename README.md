@@ -36,6 +36,10 @@ Diskpart GUI is a professional disk partitioning and formatting tool based on .N
 2. **Sanal Disk Yönetimi**: Test amaçlı VHD/VHDX dosyaları oluşturup anında sisteme bağlayabilir, diski fiziksel bir diskmiş gibi yönetebilirsiniz.
 3. **Veri Diski Hazırlama**: Yeni aldığınız bir diski tek tıkla DATA ve Windows bölümlerine senkronize bir şekilde ayırabilirsiniz.
 
+## 🛠 Teknik Detaylar
+- **Framework**: .NET 8 (Windows Forms)
+- **Backend Engine**: Windows Diskpart.exe
+- **Gereksinimler**: Yönetici Hakları
 ---
 
 </details>
@@ -59,10 +63,10 @@ Diskpart GUI is a professional disk partitioning and formatting tool based on .N
 
 ---
 
-## 🛠 Teknik Detaylar / Technical Details
+## 🛠 Technical Details
 - **Framework**: .NET 8 (Windows Forms)
 - **Backend Engine**: Windows Diskpart.exe
-- **Requirements**: Administrator Privileges (Yönetici Hakları)
+- **Requirements**: Administrator Privileges
 
 ---
 </details>
