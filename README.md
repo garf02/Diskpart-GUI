@@ -22,7 +22,7 @@ Diskpart GUI is a professional disk partitioning and formatting tool based on .N
 <summary><strong>Türkçe Tanıtım</strong></summary>
 
 ### 🚀 Temel Özellikler
-- **Windows Bölümünü Koruma**: OS yüklü olan disk bölümü çalışan Windows ortamında formatlanması önlenir.
+- **Windows Yüklü Diski Koruma**: OS yüklü olan disk bölümü çalışan Windows ortamında formatlanması önlenir.
 - **GPT ve MBR Desteği**: Modern (UEFI-GPT) ve eski (BIOS-MBR) sistemler için tam uyumluluk.
 - **Akıllı Boyut Dengeleme**: Girilen bölüm boyutları disk kapasitesini aşarsa, Windows bölümünü otomatik olarak küçülterek çakışmaları önler.
 - **VHD/VHDX Desteği**: Saniyeler içinde dinamik boyutlu sanal disk oluşturma ve otomatik bağlama.
@@ -44,7 +44,7 @@ Diskpart GUI is a professional disk partitioning and formatting tool based on .N
 <summary><strong>English Description</strong></summary>
 
 ### 🚀 Key Features
-- **Protecting the Windows Partition**: Prevents the disk partition where the OS is installed from being formatted in the running Windows environment.
+- **Protecting the Disk Where Windows is Installed**: Prevents the disk partition where the OS is installed from being formatted in the running Windows environment.
 - **GPT & MBR Support**: Full compatibility for both modern (UEFI-GPT) and legacy (BIOS-MBR) systems.
 - **Smart Size Balancing**: Automatically shrinks the Windows partition if the total size exceeds capacity, preventing formatting errors.
 - **VHD/VHDX Support**: Create and automatically mount a dynamically sized virtual disk in seconds.
