@@ -1,6 +1,6 @@
 <a href="https://buymeacoffee.com/abdullaherturk" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
 
-# Diskpart GUI - Professional Partitioning Tool
+# Diskpart GUI v2 - Professional Partitioning Tool
 
 [![.NET 8](https://img.shields.io/badge/.NET-8-blueviolet.svg?style=flat-square&logo=dotnet)](https://dotnet.microsoft.com/)
 [![C#](https://img.shields.io/badge/Language-C%23-blue.svg?style=flat-square&logo=csharp)](https://docs.microsoft.com/en-us/dotnet/csharp/)
@@ -12,13 +12,13 @@
 
 ## Link:
 
-[![Stable?](https://img.shields.io/badge/Release-v1.svg?style=flat)](https://github.com/abdullah-erturk/Diskpart-GUI/releases)
+[![Stable?](https://img.shields.io/badge/Release-v2-green.svg?style=flat)](https://github.com/abdullah-erturk/Diskpart-GUI/releases)
 
 ### Nedir?
-Diskpart GUI, hem **WinPE** (Windows Preinstallation Environment) hem de **Canlı Windows** (Live OS) ortamları için optimize edilmiş, .NET 8 tabanlı profesyonel bir disk bölümlendirme ve formatlama aracıdır.
+Diskpart GUI v2, hem **WinPE** (Windows Preinstallation Environment) hem de **Canlı Windows** (Live OS) ortamları için optimize edilmiş, .NET 8 tabanlı profesyonel bir disk bölümlendirme ve formatlama aracıdır.
 
 ### What is it?
-Diskpart GUI is a professional disk partitioning and formatting tool based on .NET 8, optimized for both **WinPE** (Windows Preinstallation Environment) and **Live Windows** (Live OS) environments.
+Diskpart GUI v2 is a professional disk partitioning and formatting tool based on .NET 8, optimized for both **WinPE** (Windows Preinstallation Environment) and **Live Windows** (Live OS) environments.
 
 ---
 
@@ -26,13 +26,14 @@ Diskpart GUI is a professional disk partitioning and formatting tool based on .N
 <summary><strong>Türkçe Tanıtım</strong></summary>
 
 ### 🚀 Temel Özellikler
-- **Windows Yüklü Diski Koruma**: OS yüklü olan disk bölümünün çalışan Windows ortamında formatlanması önlenir.
-- **GPT ve MBR Desteği**: Modern (UEFI-GPT) ve eski (BIOS-MBR) sistemler için tam uyumluluk.
+- **Modern Bölümleme Mimarisi**: Kurtarma (Recovery) bölümünü diskin en sonuna taşıyan profesyonel yapı.
+  > `[ Boot ] ➔ [ Windows ] ➔ [ DATA ] ➔ [ Recovery ]`
+- **Gelişmiş VHD/VHDX Desteği**: Dosya üzerine yazma koruması, işlem doğrulama zekası ve otomatik bağlama.
+- **Hassas Boyutlandırma**: Küçük diskler için ondalıklı GB gösterimi ve akıllı sınır yönetimi (0 GB hatası giderildi).
 - **Akıllı Boyut Dengeleme**: Girilen bölüm boyutları disk kapasitesini aşarsa, Windows bölümünü otomatik olarak küçülterek çakışmaları önler.
-- **VHD/VHDX Desteği**: Saniyeler içinde dinamik boyutlu sanal disk oluşturma ve otomatik bağlama.
-- **WinPE Optimizasyonu**: Formatlanan OS bölümüne istisnasız **C:** harfini atama zekası (C: başka bir diskte rezerve değilse).
-- **Detaylı Onay Ekranı**: Format işleminden önce yapılacak tüm işlemleri (Boot, OS, Data, Recovery) listeleyen profesyonel özet penceresi.
-- **Çoklu Dil Desteği**: İşletim sistemi diline göre otomatik Türkçe veya İngilizce arayüz. INI dosyalarının çevrilmesi ile farklı dil desteği eklenebilir.
+- **WinPE Optimizasyonu**: Formatlanan OS bölümüne istisnasız **C:** harfini atama zekası.
+- **Detaylı Onay Ekranı**: Format işleminden önce yapılacak tüm işlemleri listeleyen profesyonel özet penceresi.
+- **Çoklu Dil Desteği**: İşletim sistemi diline göre otomatik Türkçe veya İngilizce arayüz.
 
  
 ### 📚 Kullanım Senaryoları
@@ -52,13 +53,14 @@ Diskpart GUI is a professional disk partitioning and formatting tool based on .N
 <summary><strong>English Description</strong></summary>
 
 ### 🚀 Key Features
-- **Protecting the Disk Where Windows is Installed**: Prevents the disk partition where the OS is installed from being formatted in the running Windows environment.
-- **GPT & MBR Support**: Full compatibility for both modern (UEFI-GPT) and legacy (BIOS-MBR) systems.
-- **Smart Size Balancing**: Automatically shrinks the Windows partition if the total size exceeds capacity, preventing formatting errors.
-- **VHD/VHDX Support**: Create and automatically mount a dynamically sized virtual disk in seconds.
+- **Modern Partitioning Architecture**: Professional structure that moves the Recovery partition to the end of the disk.
+  > `[ Boot ] ➔ [ Windows ] ➔ [ DATA ] ➔ [ Recovery ]`
+- **Enhanced VHD/VHDX Support**: Overwrite protection, operation validation logic, and automatic mounting.
+- **Precise Sizing**: Decimal GB display for small disks and smart boundary management (Fixed 0 GB display issue).
+- **Smart Size Balancing**: Automatically shrinks the Windows partition if total size exceeds capacity, preventing errors.
 - **WinPE Optimization**: Smart drive letter assignment that prioritizes **C:** for the OS partition.
-- **Detailed Confirmation**: A professional summary window listing all planned operations (Boot, OS, Data, Recovery) before formatting.
-- **Multi-Language Support**: Automatic Turkish or English interface detection. Support for different languages ​​can be added by translating the INI files.
+- **Detailed Confirmation**: A professional summary window listing all planned operations before formatting.
+- **Multi-Language Support**: Automatic Turkish or English interface detection.
 
 ### 📚 Usage Scenarios
 1. **Clean Windows Installation (WinPE)**: After booting from installation media, prepare your disk as GPT and create bootable partitions flawlessly in seconds.
