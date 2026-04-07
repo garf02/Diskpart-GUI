@@ -24,7 +24,7 @@ Diskpart GUI is a professional disk partitioning and formatting tool based on .N
 ### 🚀 Temel Özellikler
 - **GPT ve MBR Desteği**: Modern (UEFI-GPT) ve eski (BIOS-MBR) sistemler için tam uyumluluk.
 - **Akıllı Boyut Dengeleme**: Girilen bölüm boyutları disk kapasitesini aşarsa, Windows bölümünü otomatik olarak küçülterek çakışmaları önler.
-- **VHD/VHDX Desteği**: Saniyeler içinde dinamik boyutlu sanal disk oluşturma ve bağlama.
+- **VHD/VHDX Desteği**: Saniyeler içinde dinamik boyutlu sanal disk oluşturma ve otomatik bağlama.
 - **WinPE Optimizasyonu**: Formatlanan OS bölümüne istisnasız **C:** harfini atama zekası (C: başka bir diskte rezerve değilse).
 - **Detaylı Onay Ekranı**: Format işleminden önce yapılacak tüm işlemleri (Boot, OS, Data, Recovery) listeleyen profesyonel özet penceresi.
 - **Çoklu Dil Desteği**: İşletim sistemi diline göre otomatik Türkçe veya İngilizce arayüz. INI dosyalarının çevrilmesi ile farklı dil desteği eklenebilir.
@@ -45,7 +45,7 @@ Diskpart GUI is a professional disk partitioning and formatting tool based on .N
 ### 🚀 Key Features
 - **GPT & MBR Support**: Full compatibility for both modern (UEFI-GPT) and legacy (BIOS-MBR) systems.
 - **Smart Size Balancing**: Automatically shrinks the Windows partition if the total size exceeds capacity, preventing formatting errors.
-- **VHD/VHDX Support**: Create and attach dynamic virtual disks in seconds.
+- **VHD/VHDX Support**: Create and automatically mount a dynamically sized virtual disk in seconds.
 - **WinPE Optimization**: Smart drive letter assignment that prioritizes **C:** for the OS partition.
 - **Detailed Confirmation**: A professional summary window listing all planned operations (Boot, OS, Data, Recovery) before formatting.
 - **Multi-Language Support**: Automatic Turkish or English interface detection. Support for different languages ​​can be added by translating the INI files.
