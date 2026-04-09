@@ -8,7 +8,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg?style=flat-square)](https://opensource.org/licenses/MIT)
 [![Diskpart](https://img.shields.io/badge/Engine-Diskpart-lightgrey.svg?style=flat-square)](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/diskpart)
 
-![sample](https://github.com/abdullah-erturk/Diskpart-GUI/blob/main/preview.jpg)
+![sample](https://github.com/abdullah-erturk/Diskpart-GUI/blob/main/preview.jpg) 
 
 ## Link:
 
